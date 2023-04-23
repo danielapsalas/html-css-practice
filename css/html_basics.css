@@ -14,3 +14,12 @@ table, td, th{
 tfoot{
     text-align: left;
 }
+
+.product{
+    background-color: deepskyblue;
+    width: 300px;
+}
+
+.highlight{
+    background-color: pink;
+}
