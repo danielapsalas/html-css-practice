@@ -1,0 +1,22 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/*p {*/
+/*    !*EXAMPLE FROM BOX MODEL VIDEO:This is an example of margin collapsing - you should use the margin property to separate elements *!*/
+/*    !*and the padding property to add space between the border and the content area of an element*!*/
+/*    padding: 0;*/
+/*    margin: 10px; */
+/*}*/
+
+/*p {*/
+/*    padding: 10px;*/
+/*    margin: 0;*/
+/*}*/
+
+/*EXAMPLE FROM SIZING ELEMENTS*/
+/*.box {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: pink;*/
+/*}*/

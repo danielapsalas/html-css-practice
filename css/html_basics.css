@@ -39,3 +39,7 @@ tfoot{
     box-shadow:10px 10px lightgrey;
     border-radius: 10px;
 }
+
+.container{
+    flex-wrap: wrap;
+}
