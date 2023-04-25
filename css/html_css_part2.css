@@ -1,6 +1,6 @@
-*, *::before, *::after{
-    box-sizing: border-box;
-}
+/**, *::before, *::after{*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 /*p {*/
 /*    !*EXAMPLE FROM BOX MODEL VIDEO:This is an example of margin collapsing - you should use the margin property to separate elements *!*/
@@ -19,4 +19,51 @@
 /*    width: 100px;*/
 /*    height: 100px;*/
 /*    background-color: pink;*/
+/*}*/
+
+/*EXAMPLE FROM OVERFLOW*/
+/*.box{*/
+/*    border: 3px solid gold;*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    overflow: auto;*/
+/*}*/
+
+/*-EXAMPLE FROM MEASUREMENT UNITS VIDEO*/
+/*html{*/
+/*    !*62.5% of 16px = 10px*!*/
+/*    font-size: 62.5%;*/
+/*}*/
+
+/*.box{*/
+/*    width: 15rem;*/
+/*    height: 100vh;*/
+/*    background-color: #427fef;*/
+/*    border-top: 3px solid orange;*/
+/*}*/
+
+/*EXAMPLE FROM POSITIONING VIDEO*/
+/*.boxes{*/
+/*    border: 3px solid lightgrey;*/
+/*    position: relative;*/
+/*}*/
+
+/*.box{*/
+/*    width: 5rem;*/
+/*    height: 5rem;*/
+/*}*/
+
+/*.box-one{*/
+/*    background-color: gold;*/
+/*}*/
+
+/*.box-two{*/
+/*    background-color: tomato;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+
+/*.box-three{*/
+/*    background-color: dodgerblue;*/
 /*}*/
