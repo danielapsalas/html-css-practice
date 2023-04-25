@@ -120,3 +120,28 @@
 /*}*/
 
 /*EXAMPLE FROM GRID VIDEO*/
+/*.container{*/
+/*    display: grid;*/
+/*    !*  3 x 2 *!*/
+/*    grid-template: 100px auto 100px / 20fr 70fr;*/
+/*    grid-template-areas:*/
+/*    "header header"*/
+/*    "sidebar main"*/
+/*    "footer footer";*/
+/*    !*grid-template-rows: repeat(3, 100px);*!*/
+/*    !*grid-template-columns: repeat(2, 100px);*!*/
+/*    gap: 10px 10px;*/
+/*    border: 2px solid pink;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.box{*/
+/*    background-color: #427fef;*/
+/*}*/
+
+/*.box-one{*/
+/*    grid-column: 1 / 3;*/
+/*    grid-area: header;*/
+/*}*/
+
+/*EXAMPLE FROM HIDING ELEMENTS VIDEO*/
