@@ -19,5 +19,32 @@
   <button type="submit">Register</button>
   <button type="reset">Clear</button>
 </form>
+
+<!--Data lists-->
+<form>
+    <input type="text" list="countries" autocomplete="off"/>
+    <datalist id="countries">
+        <option value="1">Australia</option>
+        <option value="2">Canada</option>
+        <option value="3">India</option>
+        <option value="4">United States</option>
+    </datalist>
+</form>
+
+<!--Dropdown lists-->
+<form>
+    <select>
+       <optgroup label="Front-end Courses">
+        <option value="1" selected>HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">Javascript</option>
+       </optgroup>
+        <optgroup label="Back-end Courses">
+            <option value="1">Node.js</option>
+            <option value="2">Java</option>
+            <option value="3">Mysql</option>
+        </optgroup>
+    </select>
+</form>
 </body>
 </html>
