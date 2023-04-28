@@ -90,5 +90,23 @@
         <input type="text"/>
     </section>
 </form>
+
+<!--hidden fields-->
+<form>
+    <input type="hidden" name="">
+</form>
+
+<!--Data validation - look this up to and use correctly to avoid data corruption-->
+<form>
+    <input type="email" required minlength="3" maxlength="30">
+    <button type="submit">Submit</button>
+</form>
+
+<!--submitting the form-->
+<form action="https://formspree.io/f/xyyaogjy" method="POST">
+    <input type="text" placeholder="Name" name="name"/>
+    <input type="text" placeholder="Email" name="email"/>
+    <button type="submit">Submit</button>
+</form>
 </body>
 </html>
